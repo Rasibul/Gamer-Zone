@@ -63,5 +63,75 @@
 }
 
 .nav-btn .fa-youtube {
-     color: #F61C0D;;
+    color: #F61C0D;
+    ;
 }
+
+/* nav section style end here */
+
+/* banner section style start here */
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.banner-headline {
+    color: #0B0223;
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-tittle {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.game-feture {
+    display: flex;
+    align-items: center;
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 500;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.signin-btn {
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: 0;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.play-btn {
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: 0;
+    margin-top: 20px;
+}
+
+
+
+
+/* banner section style end here */
