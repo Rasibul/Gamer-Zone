@@ -15,6 +15,7 @@
     align-items: center;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
 }
 
 .logo-container {
@@ -75,8 +76,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 50px auto 0px;
+    max-width: 1440px;
+    min-height: 50px; */
 }
+
 
 .banner-headline {
     color: #0B0223;
@@ -131,7 +135,85 @@
     margin-top: 20px;
 }
 
-
-
-
 /* banner section style end here */
+
+.games-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1400px;
+    margin: 50px auto 0;
+    min-height: 400px;
+    gap: 15px;
+}
+
+.card-img {
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat;
+
+}
+
+.card-details {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.games-tittle{
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 16px;
+
+}
+
+.spacial-style {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+
+.game-detail {
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+
+.play-games-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.games-img {
+    width: 50%;
+    position: relative;
+    border-radius: 8px;
+
+}
+
+.games-text {
+    width: 50%;
+}
+
+.small-img {
+    position: absolute;
+    left: 75%;
+    top: 60%;
+  
+}
