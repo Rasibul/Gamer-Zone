@@ -1,21 +1,38 @@
- @media screen and (max-width: 1024px) {
-  
+@media screen and (max-width: 1024px) {
+  .box{
+    width: 95vw;
   }
-  
-  @media screen and (max-width: 992px) {
-   
-  }
-  
-  @media screen and (max-width: 768px) {
-
-
-   }
-    
-  
-  @media screen and (max-width: 576px) {
-   
 }
-    
+
+@media screen and (max-width: 992px) {
+ 
+}
+
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 10px;
+    }
+
+ }
+  
+
+@media screen and (max-width: 576px) {
+    .nav-container, .nav-item-container {
+        flex-direction: column;
+    }
+    .nav-item-container a {
+        margin-top: 15px;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+
+    }
+    .banner-img{
+        width: 80vw;
+    }
+}
+  
   
 
 

@@ -5,23 +5,35 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.box {
+    margin: 0 auto;
+    width: 80vw;
+}
+
 /* nav section style here.. */
 
-
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
 .nav-container {
     display: flex;
     padding: 40px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    margin: 0 auto;
+   
 }
 
 .logo-container {
     display: flex;
     gap: 20px;
-    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img{
+    width: 86px;
+    height: 40px;
 }
 
 
@@ -35,7 +47,7 @@
 
 .logo-container h1 {
     color: #0B0223;
-    font-size: 2.2rem;
+    font-size:45px;
     font-weight: 700;
 
 }
@@ -76,7 +88,19 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 70px;
+   
 
+}
+
+
+.banner-img{
+    width: 50%;
+    text-align: center;
+}
+
+.banner-img img{
+    width: 100%;
 }
 
 
@@ -106,6 +130,7 @@
     font-weight: 500;
     gap: 5px;
     margin-bottom: 10px;
+    
 }
 
 .signin-btn {
@@ -134,6 +159,8 @@
 }
 
 /* banner section style end here */
+
+/* card style start here */
 
 .games-container {
     display: grid;
@@ -184,7 +211,9 @@
     font-weight: 400;
 
 }
+/* card style end here */
 
+/* play games start here */
 
 .play-games-container {
     max-width: 1440px;
@@ -215,7 +244,9 @@
     top: 60%;
 
 }
+/* paly games end here */
 
+/* game section start here */
 
 .game-section-container {
     display: flex;
@@ -250,7 +281,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/* game section end here */
 
+/* footer section start here */
 
 
 .footer-container {
@@ -333,3 +366,4 @@
     font-size: 0.9rem;
     font-weight: 500;
 }
+/* footer section end here */
