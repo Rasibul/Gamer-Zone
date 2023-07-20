@@ -163,23 +163,24 @@ header{
 /* card style start here */
 
 .games-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    max-width: 1400px;
-    margin: 50px auto 0;
-    min-height: 400px;
+    display: flex;
+    justify-content: center;
     gap: 15px;
 }
+.online-games-card{
+    width: 230px;
 
+}
 .card-img {
     border-radius: 16px;
     background: lightgray 50% / cover no-repeat;
+    width: 100%;
 
 }
 
 .card-details {
     color: #534C64;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
     margin-top: 20px;
 }
@@ -193,7 +194,10 @@ header{
     margin-bottom: 16px;
 
 }
+.game-detail{
+    margin-bottom: 16px;
 
+}
 .spacial-style {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
